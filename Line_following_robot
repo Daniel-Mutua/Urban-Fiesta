@@ -26,7 +26,7 @@ void loop() {
     motor4.run(FORWARD);
     motor4.setSpeed(150);
   } else {
-    // Stop
+    // Stop command
     motor1.run(RELEASE);
     motor1.setSpeed(0);
     motor2.run(RELEASE);
